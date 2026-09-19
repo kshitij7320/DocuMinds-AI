@@ -1,0 +1,22 @@
+:root {
+  --bg-primary: #0a0a14;
+  --bg-secondary: #12121f;
+  --bg-card: #1a1a2e;
+  --bg-card-hover: #222240;
+  --bg-input: #16162a;
+  --border: #2a2a45;
+  --border-focus: #7c3aed;
+  --text-primary: #f0f0f5;
+  --text-secondary: #a0a0b8;
+  --text-muted: #6b6b85;
+  --accent-primary: #7c3aed;
+  --accent-gradient: linear-gradient(135deg, #7c3aed, #3b82f6);
+  --accent-glow: 0 0 20px rgba(124,58,237, 0.3);
+  --success: #22c55e;
+  --warning: #eab308;
+  --error: #ef4444;
+  --info: #3b82f6;
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
